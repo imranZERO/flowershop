@@ -2,3 +2,36 @@ body {
 	margin: 0;
 	font-family: 'Lora', serif;
 }
+
+.btn-primary {
+	border-radius: 8px;
+	background: #E55473;
+	color: #FFF;
+	border: none;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 20px 40px;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	background-color: #E554731A;
+	padding: 50px 140px 0;
+}
+header h1 {
+	color: #272727;
+	font-size: 76px;
+	font-weight: 800;
+	margin-top: 150px;
+	margin-bottom: 0;
+}
+header p {
+	color: #272727;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 32px 0;
+}
+header img {
+	max-height: 800px;
+}
