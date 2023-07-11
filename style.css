@@ -117,13 +117,27 @@ main {
 	color: #272727;
 	font-size: 40px;
 	font-weight: 700;
-}
-.hotdeal p {
-	color: #272727;
-	font-size: 18px;
-	line-height: 30px;
+	padding-bottom: 0;
 }
 .discount {
 	color: #E55473;
 	font-size: 46px;
+}
+
+.gallery {
+	padding: 125px 0;
+}
+.gallery-container {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+}
+.gallery h2 {
+	color: #272727;
+	font-size: 40px;
+	font-weight: 700;
+	margin: 0;
+}
+.gallery p {
+	margin-bottom: 50px;
 }
