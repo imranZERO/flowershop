@@ -44,7 +44,7 @@ header {
 }
 header h1 {
 	color: #272727;
-	font-size: 66px;
+	font-size: 62px;
 	font-weight: 700;
 	margin-top: 150px;
 	margin-bottom: 0;
@@ -129,20 +129,23 @@ main {
 .gallery {
 	padding: 125px 0;
 }
+.gallery img {
+	width: 93%;
+}
 .gallery-container {
 	display: flex;
 	justify-content: center;
-	gap: 24px;
 }
 .gallery p {
 	margin-bottom: 50px;
 }
 
 .newsletter {
-	max-width: 1440px;
+	max-width: 1366px;
 	margin: 50px auto 125px;
 	background-image: url('./images/Rectangle 9.png');
 	background-repeat: no-repeat;
+	background-size: contain;
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
@@ -185,4 +188,31 @@ footer p {
 .copyright {
 	color: rgba(255, 255, 255, 0.40);
 	font-size: 16px;
+}
+
+.owner-container {
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	max-width: 1366px;
+	margin-bottom: 130px;
+	gap: 100px;
+}
+.owner img {
+	border-radius: 500px;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 20px;
+	border: 10px solid pink;
+}
+.owner h3 {
+	margin-top: 10px;
+}
+.owner-greeting {
+	margin-bottom: 80px;
+}
+.owner-container h2 {
+	font-size: 34px;
 }
